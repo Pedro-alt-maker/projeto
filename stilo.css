@@ -1,0 +1,55 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagem/wallpaper002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container {
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid skyblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 400px;
+}
+.container > button ,a{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    text-decoration: none;
+    margin: 15px 0px;
+    
+   
+    
+}
+button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+
+}
+input{
+    height: 35px;
+    padding: 17px;
+    margin: 15px 0px;
+    border: 1px solid skyblue;
+}
